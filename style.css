@@ -37,9 +37,14 @@ body {
     font-size: 24px;
 }
 
-.nav-list,
+.nav-list{
+    display: flex;   justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+
 .nav-list ul {
-    display: flex;
+    display: flex;  
 }
 
 .nav-list ul {
@@ -130,6 +135,11 @@ body {
 }
 
 /* collection container css  */
+.product {
+    margin-bottom: 120px;
+    padding: 20px;
+
+}
 
 .collection-container {
     display: grid;
@@ -138,10 +148,7 @@ body {
     margin-bottom: 50px;
 }
 
-.product {
-    margin-bottom: 120px;
 
-}
 
 .collection {
     background-color: white;

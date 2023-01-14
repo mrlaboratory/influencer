@@ -173,3 +173,40 @@ font-size: 14px;
     color: rgba(224, 44, 109, 0.87);
     cursor: pointer;
 }
+
+
+
+/* future product style  */
+.futured-product{
+    width: 100%;
+    display: flex;
+    gap: 96px;
+    margin-bottom: 100px;
+}
+
+
+.futured-product img{
+    width: 404px;
+    height: 270px;
+}
+.futured-info h2{
+    font-weight: 700;
+font-size: 38px;
+color: #0A0826;
+margin-bottom: 16px;
+}
+.futured-info p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+margin-bottom: 16px;
+}
+.futured-info button{
+    background: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+font-size: 16px;
+border: none;
+outline: none;
+}

@@ -310,7 +310,7 @@ margin-bottom: 3px;
      background-color: red;
 }
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:700px) {
     .header {
         width: 100%;
         margin-top: 10px;
@@ -383,3 +383,26 @@ margin-bottom: 3px;
 }
 
 
+
+
+/* responsive code for tablet  */
+
+@media only screen and (min-width:701px) and (max-width:992px) {
+    
+    .collection-container{
+        grid-template-columns: repeat(2, 1fr);
+
+  
+    }
+.navigation {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}.banner-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+}

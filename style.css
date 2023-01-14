@@ -14,6 +14,7 @@
 
  body{
     font-family: 'Poppins', sans-serif;
+background-color: #ffffff;
 
  }
 
@@ -88,4 +89,87 @@ margin-bottom: 16px;
     border: none;
     outline: none;
     color: white;
+}
+
+.main{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/* company section style  */
+
+.company{
+    border-top: 1px solid rgb(224, 221, 221);
+    border-bottom: 1px solid rgb(224, 221, 221);
+    padding: 10px 0px;
+    margin-bottom: 100px;
+}
+.company img{
+    margin-right: 60px;
+}
+
+/* product section style */
+.section-title{
+    margin-bottom: 30px;
+    font-weight: 600;
+font-size: 28px;
+color: #3A3A3A;
+text-align: center;
+}
+
+/* collection container css  */
+
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.product{ margin-bottom: 120px;
+
+}
+.collection{
+    background-color: white;
+    padding: 17px 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 16px rgb(230, 227, 227);
+
+}
+.collection img{
+    width: 100%;
+}
+.coll-title{
+    font-weight: 500;
+font-size: 28px;
+color: #18191F;
+}
+.price{
+    margin-bottom: 6px;
+    font-weight: 400;
+font-size: 24px;
+color: rgba(0, 0, 0, 0.87);
+}
+.rating{
+    font-weight: 700;
+font-size: 14px;
+color: #5E6366;
+}
+.rating .fa-star{
+    color: #FB8200;
+
+}
+.coll-info p{
+    color: #787885;
+    font-weight: 700;
+font-size: 14px;
+}
+.see-more{
+    width: 100%;
+    text-align: right;
+}
+.see-more p{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+    cursor: pointer;
 }
